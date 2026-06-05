@@ -5,19 +5,19 @@ class Safe < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rising-company/safe/releases/download/v0.1.0/safe-darwin-arm64.tar.gz"
-      sha256 "9c9f74894d5c2083b9dd57785d4c62f8b44ade0f41929beba79acfe2338e1cca"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.1.0/safe-darwin-arm64.tar.gz"
+      sha256 "4d358dfbc9ef302aae551edd0940100beec583eb9187d13719bd3bcfe04c9fae"
     end
     on_intel do
-      url "https://github.com/rising-company/safe/releases/download/v0.1.0/safe-darwin-x64.tar.gz"
-      sha256 "71a2b8c664b67557536063b6a3d3abee03a9f5d43b00c3dc8951356c26581ced"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.1.0/safe-darwin-x64.tar.gz"
+      sha256 "8d9908c06988530d794fe7016e334862b408229bcea831baf316215661ee8d52"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rising-company/safe/releases/download/v0.1.0/safe-linux-x64.tar.gz"
-      sha256 "587219eaf6a3060dc8275cf6189490c46a53efba77f2b82b4fedf07d086cc72f"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.1.0/safe-linux-x64.tar.gz"
+      sha256 "564934ea68ad16f9c37449304390357e6e54b8212452e664d7293695c5064dd9"
     end
   end
 
