@@ -1,23 +1,23 @@
 class Safe < Formula
   desc "Resolve secrets from your Rising Safe instance and inject them into processes"
   homepage "https://github.com/rising-company/safe"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.2.0/safe-darwin-arm64.tar.gz"
-      sha256 "cea2e86e728e49a6e50b14317d9adb22f0d9160c2bd307e319170fad98d40a9d"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.3.0/safe-darwin-arm64.tar.gz"
+      sha256 "d070389241ac82a8f6ceb498bf96fd82976a179a4e2442c6388725d577700148"
     end
     on_intel do
-      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.2.0/safe-darwin-x64.tar.gz"
-      sha256 "ce929c2f1bbbed14d631b0db9db2d7a7b3331f878bc823b62babd821beda0b7f"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.3.0/safe-darwin-x64.tar.gz"
+      sha256 "3b9d904cd79ae358a4fd30b9ca298a8a08080f6744ebaffbee26ff389d708236"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.2.0/safe-linux-x64.tar.gz"
-      sha256 "9b52710e87a890b7c822823bb9472b4cde419adf918d67973b32bca7e70b2c9c"
+      url "https://github.com/rising-company/homebrew-tap/releases/download/v0.3.0/safe-linux-x64.tar.gz"
+      sha256 "72523191a858ee1780d16450c323d103fe240ade5f787afc24fb1ddbb5af6579"
     end
   end
 
